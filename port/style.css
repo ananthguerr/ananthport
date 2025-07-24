@@ -110,13 +110,32 @@ h2 {
 #about {
   background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://imgd.aeplcdn.com/600x337/n/cw/ec/168911/guerilla-450-right-side-view.jpeg?isig=0') center/cover no-repeat;
-  color: #fff;
-  padding: 60px 0;
-  position: relative;
-  z-index: 1;
+    url('https://imgd.aeplcdn.com/1056x594/n/cw/ec/168911/guerilla-450-right-side-view.jpeg?isig=0') center center / cover no-repeat;
+  color: #ffffff;
+  padding: 80px 0;
   background-attachment: fixed;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
 }
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+#about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  line-height: 1.8;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
 
 #about p {
   font-size: 1.1rem;
