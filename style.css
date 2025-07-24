@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #0077b6;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* Navigation */
+nav {
+  background: #023e8a;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+nav a:hover {
+  background: #0077b6;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.skills-list li {
+  background: #caf0f8;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Projects */
+.project {
+  background: #edf6f9;
+  padding: 20px;
+  border-left: 5px solid #0077b6;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: #0077b6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #023e8a;
+}
+
+/* Footer */
+footer {
+  background: #03045e;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
